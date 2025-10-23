@@ -27,8 +27,13 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
-            ]
+              "node_modules/@portfolio-pugavkomm/ui-core/src/styles/styles.scss"
+            ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+               "node_modules/@portfolio-pugavkomm/ui-core/src/styles"
+              ]
+            }
           },
           "configurations": {
             "production": {
@@ -87,5 +92,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
